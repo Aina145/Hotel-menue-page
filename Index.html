@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodies Heaven | Premium Dining Experience</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+  <header>
+    <button id="toggleTheme" onclick="toggleTheme()">🌙 Dark Mode</button>
+    <div class="animate__animated animate__fadeInDown">
+      <h1>🍴 Foodies Heaven</h1>
+      <p>WHERE TASTE MEETS HAPPINESS</p>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <!-- Starters Section -->
+    <section class="menu-section">
+      <h2 data-aos="fade-up">Starters</h2>
+      <div class="menu-grid">
+        <div class="menu-item animate__animated animate__fadeInUp" onclick="selectItem('Garlic Bread')">
+          <div class="item-image">
+            <img src="images/garlic_bread.png" alt="Garlic Bread">
+          </div>
+          <div class="item-content">
+            <div class="item-info">
+              <h3>Garlic Bread</h3>
+              <p>Crispy bread with garlic butter & herbs.</p>
+            </div>
+            <div class="item-footer">
+              <span class="price">$5.00</span>
+              <button class="add-btn">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item animate__animated animate__fadeInUp" style="animation-delay: 0.1s;" onclick="selectItem('Tomato Soup')">
+          <div class="item-image">
+            <img src="images/tomato_soup.png" alt="Tomato Soup">
+          </div>
+          <div class="item-content">
+            <div class="item-info">
+              <h3>Tomato Soup</h3>
+              <p>Creamy roasted tomato soup with basil.</p>
+            </div>
+            <div class="item-footer">
+              <span class="price">$6.00</span>
+              <button class="add-btn">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Course Section -->
+    <section class="menu-section">
+      <h2 data-aos="fade-up">Main Course</h2>
+      <div class="menu-grid">
+        <div class="menu-item animate__animated animate__fadeInUp" onclick="selectItem('Margherita Pizza')">
+          <div class="item-image">
+            <img src="images/margherita_pizza.png" alt="Margherita Pizza">
+          </div>
+          <div class="item-content">
+            <div class="item-info">
+              <h3>Margherita Pizza</h3>
+              <p>Fresh mozzarella, tomato sauce & basil.</p>
+            </div>
+            <div class="item-footer">
+              <span class="price">$12.00</span>
+              <button class="add-btn">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item animate__animated animate__fadeInUp" style="animation-delay: 0.1s;" onclick="selectItem('Grilled Chicken')">
+          <div class="item-image">
+            <img src="images/grilled_chicken.png" alt="Grilled Chicken">
+          </div>
+          <div class="item-content">
+            <div class="item-info">
+              <h3>Grilled Chicken</h3>
+              <p>Herb-marinated chicken with roasted veggies.</p>
+            </div>
+            <div class="item-footer">
+              <span class="price">$15.00</span>
+              <button class="add-btn">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Desserts Section -->
+    <section class="menu-section">
+      <h2 data-aos="fade-up">Sweet Endings</h2>
+      <div class="menu-grid">
+        <div class="menu-item animate__animated animate__fadeInUp" onclick="selectItem('Chocolate Cake')">
+          <div class="item-image">
+            <img src="images/chocolate_cake.png" alt="Chocolate Cake">
+          </div>
+          <div class="item-content">
+            <div class="item-info">
+              <h3>Chocolate Cake</h3>
+              <p>Rich fudge cake with double chocolate glaze.</p>
+            </div>
+            <div class="item-footer">
+              <span class="price">$6.00</span>
+              <button class="add-btn">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item animate__animated animate__fadeInUp" style="animation-delay: 0.1s;" onclick="selectItem('Ice Cream Sundae')">
+          <div class="item-image">
+            <img src="images/ice_cream_sundae.png" alt="Ice Cream Sundae">
+          </div>
+          <div class="item-content">
+            <div class="item-info">
+              <h3>Ice Cream Sundae</h3>
+              <p>Vanilla & chocolate with whipped cream & cherry.</p>
+            </div>
+            <div class="item-footer">
+              <span class="price">$5.00</span>
+              <button class="add-btn">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Foodies Heaven. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
