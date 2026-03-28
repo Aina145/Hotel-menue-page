@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🍴 Foodies Heaven - Modern Restaurant Menu
 
 This is a premium, high-end digital restaurant menu experience built with modern web technologies. 🚀
@@ -30,6 +29,3 @@ You can view the live project here:
 ---
 
 *Enjoy the taste of high-quality code!* 😋
-=======
-# Hotel-menue-page
->>>>>>> b2ac7cb62731bc3fdb58eb0a2d00c618df65ff82
