@@ -1,5 +1,9 @@
 # 🍴 Foodies Heaven - Modern Restaurant Menu
 
+### 🌐 Live Demo
+You can view the live project here:  
+ https://aina145.github.io/Hotel-menue-page/
+
 This is a premium, high-end digital restaurant menu experience built with modern web technologies. 🚀
 
 ### 📖 Description
@@ -12,11 +16,6 @@ This was a **practice project** where I explored modern CSS techniques, glassmor
 - **Interactive**: Theme toggle (Dark/Light) with persistence.
 - **Responsive**: Works perfectly on mobile, tablet, and desktop.
 
----
-
-### 🌐 Live Demo
-You can view the live project here:  
-👉 [**Live Site Link**](https://Aina145.github.io/Hotel-menue-page/)
 
 ---
 
